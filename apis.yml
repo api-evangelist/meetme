@@ -1,8 +1,25 @@
 aid: meetme
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meetme.png
 name: MeetMe
-description: MeetMe is a company surfaced as a portfolio company of a16z, norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MeetMe is a consumer social-discovery and chat platform that helps people find and
+  connect with new people nearby who share their interests, through profiles, feeds, live streaming,
+  and real-time messaging on web and mobile. Operated by The Meet Group as part of the ParshipMeet
+  Group, MeetMe grew out of the myYearbook social network and today runs as a location-aware social
+  networking and dating-adjacent app. It was surfaced as a portfolio company of a16z and Norwest
+  Venture Partners and added to the API Evangelist network. As of this enrichment pass MeetMe
+  publishes no public developer portal, API reference, OpenAPI, or SDKs — this profile captures its
+  identity, legal surface, and live domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/meetme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Social
+- Social Networking
+- Dating
+- Messaging
+- Live Streaming
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://meetme.com
+  url: https://www.meetme.com
+- type: Support
+  url: https://support.meetme.com/hc/en-us
+- type: TermsOfService
+  url: https://www.meetme.com/en/termsandconditions/
+- type: PrivacyPolicy
+  url: https://www.meetme.com/en/privacypolicy/
+- type: DomainSecurity
+  url: security/meetme-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
