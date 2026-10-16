@@ -1,0 +1,14 @@
+{
+  "repo": "meetme",
+  "feeds": [
+    {
+      "source": "https://www.meetme.com/en/press/",
+      "feed_url": "https://www.meetme.com/en/press/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
